@@ -1,0 +1,8 @@
+.products-container{
+    /* margin: 15px auto; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0px 14vh; */
+}
+

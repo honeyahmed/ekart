@@ -1,0 +1,13 @@
+<div class="search-product">
+  <input type="text" class="search-input" #searchInput />
+
+  <!-- <input type="text" class="search-input" [value]="searchText" (input)="updateSearchText($event)"> -->
+  <button class="btn btn-search" (click)="updateSearchText()">
+    Search
+  </button>
+</div>
+<div class="search-result">
+  <p *ngIf="searchText != ''">
+    <strong>Search results for:</strong> {{ searchText }}
+  </p>
+</div>

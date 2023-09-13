@@ -1,0 +1,11 @@
+.main-menu ul {
+    display: flex;
+    list-style: none;
+  }
+  .main-menu ul li {
+    margin-right: 20px;
+    font-size: 22px;
+  }
+  .main-menu ul li:last-child {
+    margin-right: 0px;
+  }

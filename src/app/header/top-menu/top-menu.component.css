@@ -1,0 +1,19 @@
+.top-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 15px;
+}
+.top-menu ul{
+    display: flex;
+    list-style: none;
+}
+.top-menu ul li{
+    margin-right: 20px;
+    font-size: 14px;
+}
+.help{
+   color:rgb(112, 112, 211);
+}
+.top-menu ul li:last-child{
+    margin-right: 0px;
+}
